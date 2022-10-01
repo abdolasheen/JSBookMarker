@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- google fonts  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/all.css" />
+    <link rel="stylesheet" href="css/style.css" />
+
+    <title>Book Marker</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+        <h1 class="text-muted border-bottom py-5">Bookmarker</h1>
+      </div>
+      <div class="row">
+        <form action="#" class="bg-light rounded-2 text-center p-5">
+          <h2>Bookmark your favorite sites</h2>
+          <h3 class="mt-5">site Name</h3>
+
+          <input
+            type="text"
+            class="form-control name"
+            placeholder="Bookmark Name"
+          />
+          <div
+            class="bg-danger text-center border rounded-2 text-white opacity-75 mt-3 fs-3 name-validation"
+          >
+            This field cannot be empty
+          </div>
+          <h3 class="mt-5">site URL</h3>
+
+          <input
+            type="text"
+            class="form-control mb-4 url"
+            placeholder="Website URL"
+          />
+          <div
+            class="bg-danger text-center border rounded-2 text-white opacity-75 my-3 fs-3 url-validation"
+          >
+            Enter a valid URL
+          </div>
+          <button class="btn btn-primary add">Submit</button>
+        </form>
+      </div>
+      <div class="row booktable"></div>
+    </div>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
